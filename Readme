@@ -1,0 +1,55 @@
+QuizAI – Smart Quiz Generator Android App
+
+QuizAI is an Android app built with Kotlin and Jetpack Compose. It allows users to generate topic-based quizzes, attempt them in a beautiful modern UI, and view detailed results with full history tracking.
+
+Note: This project is still under active development, and some planned features are not fully completed yet.
+
+Features
+
+• Dynamic quiz generation based on user-selected topic, difficulty, question count, subtopics, and optional custom instructions.
+• Clean Jetpack Compose quiz interface with question progress, next/previous navigation, and submit confirmation.
+• Detailed result screen showing animated score circle, performance message, summary breakdown, and full answer review.
+• Local history saving using Room Database, including topic, difficulty, date, score, and wrong answers.
+• History screen with list of past attempts, delete option, and detailed view for each attempt.
+• Home screen with recent results section and navigation drawer.
+• Dark theme toggle, clear history option, about dialog, and app info footer.
+
+Tech Stack
+
+• Kotlin
+• Jetpack Compose
+• ViewModel + StateFlow architecture
+• Room Database (Quiz attempts + wrong answers)
+• Retrofit network layer
+• Material 3 components
+• Navigation Compose
+• Light / Dark theming with smooth UI
+
+Project Structure (High-Level)
+
+• Screens: Home, Generate Quiz, Quiz Questions, Results, History, Attempt Details
+• Data Layer: Entities, DAOs, Database, Repository
+• ViewModels: GenerateQuiz, QuizQuestion, QuizResult, QuizHistory
+• Navigation: NavHost + Screen routes
+
+Getting Started
+
+Clone the repository.
+
+Open it in Android Studio.
+
+Let Gradle sync automatically.
+
+Connect a device/emulator.
+
+Press Run to launch the app.
+
+Current Status
+
+The app is fully functional but still being refined.
+Upcoming improvements include better UI polish, extra analytics, more customization options, and enhanced user experience handling.
+
+Author
+
+Adnan Gull
+Android & Kotlin Developer | Jetpack Compose | UI/UX Enthusiast
